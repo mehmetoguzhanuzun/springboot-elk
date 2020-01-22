@@ -1,0 +1,11 @@
+2020-01-22 17:05:06.662  INFO 25648 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-22 17:05:09.365  INFO 26121 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 26121 (/Users/mou/IdeaProjects/springbootelk/target/classes started by mou in /Users/mou/IdeaProjects/springbootelk)
+2020-01-22 17:05:09.367  INFO 26121 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-22 17:05:10.531  INFO 26121 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-22 17:05:10.543  INFO 26121 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-22 17:05:10.544  INFO 26121 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-22 17:05:10.632  INFO 26121 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-22 17:05:10.633  INFO 26121 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1213 ms
+2020-01-22 17:05:10.866  INFO 26121 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-22 17:05:11.031  INFO 26121 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-22 17:05:11.034  INFO 26121 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.198 seconds (JVM running for 2.602)
