@@ -49,3 +49,146 @@
 2020-01-23 10:18:37.413  INFO 12979 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
 2020-01-23 10:19:04.111  INFO 12979 --- [http-nio-8034-exec-6] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
 2020-01-23 10:19:04.111  INFO 12979 --- [http-nio-8034-exec-6] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 10:55:26.941  INFO 12979 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 10:55:29.293  INFO 13687 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 13687 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 10:55:29.297  INFO 13687 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 10:55:30.508  INFO 13687 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 10:55:30.519  INFO 13687 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 10:55:30.520  INFO 13687 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 10:55:30.600  INFO 13687 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 10:55:30.600  INFO 13687 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1245 ms
+2020-01-23 10:55:30.840  INFO 13687 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 10:55:31.029  INFO 13687 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 10:55:31.032  INFO 13687 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.125 seconds (JVM running for 2.531)
+2020-01-23 11:02:21.525  INFO 13687 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:04:35.676  INFO 13858 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 13858 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 11:04:35.679  INFO 13858 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 11:04:36.880  INFO 13858 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 11:04:36.891  INFO 13858 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 11:04:36.891  INFO 13858 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 11:04:36.962  INFO 13858 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 11:04:36.962  INFO 13858 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1229 ms
+2020-01-23 11:04:37.181  INFO 13858 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:04:37.341  INFO 13858 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 11:04:37.344  INFO 13858 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.04 seconds (JVM running for 2.426)
+2020-01-23 11:04:47.145  INFO 13858 --- [http-nio-8034-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-23 11:04:47.146  INFO 13858 --- [http-nio-8034-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-23 11:04:47.153  INFO 13858 --- [http-nio-8034-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-01-23 11:04:47.234  INFO 13858 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:04:47.234  INFO 13858 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:04:48.534  INFO 13858 --- [http-nio-8034-exec-3] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:04:48.534  INFO 13858 --- [http-nio-8034-exec-3] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:04:49.207  INFO 13858 --- [http-nio-8034-exec-4] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:04:49.207  INFO 13858 --- [http-nio-8034-exec-4] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:10:18.779  INFO 13858 --- [http-nio-8034-exec-6] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:10:18.779  INFO 13858 --- [http-nio-8034-exec-6] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:10:21.967  INFO 13858 --- [http-nio-8034-exec-8] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:10:21.968  INFO 13858 --- [http-nio-8034-exec-8] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:10:23.056  INFO 13858 --- [http-nio-8034-exec-10] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:10:23.056  INFO 13858 --- [http-nio-8034-exec-10] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:10:23.678  INFO 13858 --- [http-nio-8034-exec-2] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:10:23.679  INFO 13858 --- [http-nio-8034-exec-2] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:10:24.918  INFO 13858 --- [http-nio-8034-exec-3] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:10:24.918  INFO 13858 --- [http-nio-8034-exec-3] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:11:49.741  INFO 13858 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:11:49.741  INFO 13858 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:11:51.189  INFO 13858 --- [http-nio-8034-exec-7] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:11:51.190  INFO 13858 --- [http-nio-8034-exec-7] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:12:52.052  INFO 13858 --- [http-nio-8034-exec-9] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:12:52.052  INFO 13858 --- [http-nio-8034-exec-9] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:13:44.638  INFO 13858 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:13:44.639  INFO 13858 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:14:14.698  INFO 13858 --- [http-nio-8034-exec-3] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo/ BODY: []
+2020-01-23 11:14:14.699  INFO 13858 --- [http-nio-8034-exec-3] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo/ - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:16:25.331  INFO 13858 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:16:25.332  INFO 13858 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:16:28.555  INFO 13858 --- [http-nio-8034-exec-7] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:16:28.555  INFO 13858 --- [http-nio-8034-exec-7] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:16:39.981  INFO 13858 --- [http-nio-8034-exec-9] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:16:39.981  INFO 13858 --- [http-nio-8034-exec-9] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:19:38.761  INFO 13858 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:19:41.030  INFO 14158 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 14158 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 11:19:41.034  INFO 14158 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 11:19:42.125  INFO 14158 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 11:19:42.135  INFO 14158 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 11:19:42.135  INFO 14158 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 11:19:42.207  INFO 14158 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 11:19:42.207  INFO 14158 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1120 ms
+2020-01-23 11:19:42.408  INFO 14158 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:19:42.566  INFO 14158 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 11:19:42.569  INFO 14158 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 1.914 seconds (JVM running for 2.306)
+2020-01-23 11:37:16.908  INFO 14158 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:37:19.171  INFO 14431 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 14431 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 11:37:19.175  INFO 14431 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 11:37:20.445  INFO 14431 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 11:37:20.456  INFO 14431 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 11:37:20.457  INFO 14431 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 11:37:20.532  INFO 14431 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 11:37:20.533  INFO 14431 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1301 ms
+2020-01-23 11:37:20.804  INFO 14431 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:37:20.996  INFO 14431 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 11:37:21.001  INFO 14431 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.219 seconds (JVM running for 2.604)
+2020-01-23 11:54:27.557  INFO 14431 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:54:29.862  INFO 15171 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 15171 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 11:54:29.873  INFO 15171 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 11:57:57.325  INFO 15979 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 15979 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 11:57:57.329  INFO 15979 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 11:57:58.711  INFO 15979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 11:57:58.723  INFO 15979 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 11:57:58.723  INFO 15979 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 11:57:58.800  INFO 15979 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 11:57:58.801  INFO 15979 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1413 ms
+2020-01-23 11:57:59.062  INFO 15979 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 11:57:59.276  INFO 15979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 11:57:59.279  INFO 15979 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.413 seconds (JVM running for 2.839)
+2020-01-23 11:58:12.737  INFO 15979 --- [http-nio-8034-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-23 11:58:12.738  INFO 15979 --- [http-nio-8034-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-23 11:58:12.744  INFO 15979 --- [http-nio-8034-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-01-23 11:58:12.820  INFO 15979 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:58:12.821  INFO 15979 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:58:13.637  INFO 15979 --- [http-nio-8034-exec-2] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:58:13.637  INFO 15979 --- [http-nio-8034-exec-2] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:58:14.154  INFO 15979 --- [http-nio-8034-exec-4] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:58:14.155  INFO 15979 --- [http-nio-8034-exec-4] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:58:14.596  INFO 15979 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:58:14.596  INFO 15979 --- [http-nio-8034-exec-5] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 11:58:15.051  INFO 15979 --- [http-nio-8034-exec-7] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 11:58:15.051  INFO 15979 --- [http-nio-8034-exec-7] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 12:49:29.574  INFO 15979 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 12:49:31.903  INFO 16650 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 16650 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 12:49:31.906  INFO 16650 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 12:49:33.140  INFO 16650 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 12:49:33.150  INFO 16650 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 12:49:33.150  INFO 16650 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 12:49:33.224  INFO 16650 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 12:49:33.224  INFO 16650 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1254 ms
+2020-01-23 12:49:33.451  INFO 16650 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 12:49:33.618  INFO 16650 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 12:49:33.621  INFO 16650 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.111 seconds (JVM running for 2.533)
+2020-01-23 12:50:42.430  INFO 16650 --- [http-nio-8034-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-23 12:50:42.430  INFO 16650 --- [http-nio-8034-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-23 12:50:42.438  INFO 16650 --- [http-nio-8034-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-01-23 12:50:42.517  INFO 16650 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : REQUEST | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 URI: /demo BODY: []
+2020-01-23 12:50:42.517  INFO 16650 --- [http-nio-8034-exec-1] com.springboot.elk.aspect.LoggingAspect  : RESPONSE | METHOD: GET - REMOTE: 0:0:0:0:0:0:0:1 - URI: /demo - BODY: [DemoUser{id=1, username='DEMOUSER0', password='DEMOPASS0'}, DemoUser{id=2, username='DEMOUSER1', password='DEMOPASS1'}, DemoUser{id=3, username='DEMOUSER2', password='DEMOPASS2'}]
+2020-01-23 12:55:47.822  INFO 16650 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 12:55:50.106  INFO 16757 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 16757 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 12:55:50.109  INFO 16757 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 12:55:51.240  INFO 16757 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 12:55:51.251  INFO 16757 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 12:55:51.252  INFO 16757 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 12:55:51.331  INFO 16757 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 12:55:51.332  INFO 16757 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1169 ms
+2020-01-23 12:55:51.555  INFO 16757 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 12:55:51.717  INFO 16757 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 12:55:51.721  INFO 16757 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 1.994 seconds (JVM running for 2.382)
+2020-01-23 13:01:47.644  INFO 16757 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-23 13:01:49.016  INFO 16876 --- [main] com.springboot.elk.DemoApp               : Starting DemoApp on mou.local with PID 16876 (/Users/mou/IdeaProjects/springboot-elk/target/classes started by mou in /Users/mou/IdeaProjects/springboot-elk)
+2020-01-23 13:01:49.019  INFO 16876 --- [main] com.springboot.elk.DemoApp               : No active profile set, falling back to default profiles: default
+2020-01-23 13:01:50.347  INFO 16876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8034 (http)
+2020-01-23 13:01:50.359  INFO 16876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-23 13:01:50.359  INFO 16876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-01-23 13:01:50.430  INFO 16876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-23 13:01:50.430  INFO 16876 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1344 ms
+2020-01-23 13:01:50.671  INFO 16876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-23 13:01:50.849  INFO 16876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8034 (http) with context path ''
+2020-01-23 13:01:50.853  INFO 16876 --- [main] com.springboot.elk.DemoApp               : Started DemoApp in 2.243 seconds (JVM running for 2.639)

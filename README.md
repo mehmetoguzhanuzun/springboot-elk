@@ -53,19 +53,38 @@ If it returns you a meaningful json and status field is **green** then we can sa
 $ curl http://localhost:9600
 ```
 
+#### Run Spring Boot Demo Application and make some requests
+Start your spring boot application, we will request it for triggering **logstash** to transport datas to **elastic**.
+Run this command several times.
+```bash
+curl --location --request GET http://localhost:8034/demo
+```
 
 ### Kibana 7.5.1 Docker Installation
 Run command below to install **Kibana** on your **Docker**.  
-You can find **docker-kibana-compose.yml** file on project root.  
-
-
+Before run it change **elasticsearch.hosts** field of **kibana.yml** file.     
+You have to change it with your server or local machine ip.  
+**It wont accept http://localhost:9200 or http://127.0.0.1:9200**.  
+ 
+You can find **docker-kibana-compose.yml** file on project root. 
+ 
 This file needs **kibana.yml**. Please be sure that you put it in right directory.  
 ```bash
 $ docker-compose -f docker-kibana-compose.yml up
-```
-Open your browser and go to http://localhost:5601, **Kibana** does not require username and password with default configuraiton
+``` 
+Open your browser and go to http://localhost:5601, **Kibana** does not require username and password with default configuraiton.    
 Go to **discover** tab, it is top of left menu for this version.
-![ELK](https://github.com/mehmetoguzhanuzun/springboot-elk/blob/master/elk-architecture.png?raw=true)
+
+In this page you can follow steps below to create your index pattern.  
+If you dont see demo_log pattern please check your installations.
+demo_log refers to index field in **logstash.conf**  
+![ELK](https://github.com/mehmetoguzhanuzun/springboot-elk/blob/master/kibana-index-pattern.gif?raw=true)
+
+Go to discover page again and see your logs like below.
+![ELK](https://github.com/mehmetoguzhanuzun/springboot-elk/blob/master/kibana-log-view.gif?raw=true)
+
+Enjoy it.
+
 
 
 
